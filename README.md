@@ -2,13 +2,31 @@
 
 ## Purpose
 
-The purpose behind ***Breathe*** is to provide simple access to a number of different breathing routines. While doing some research on my own, I came across an interesting body of literature on the patterns and timings used in breathing routines. These routines were simple—simple enough that I thought I ought to build a small app to explore them further. ***Breathe*** guides you through simple breathing routines, like Box Breathing or Pranayama, with a pulsing animation and haptic alerts providing subtle feedback.
+***Breathe*** is an iOS app built with SwiftUI. The purpose behind ***Breathe*** is to provide simple access to a number of different breathing routines. While doing research on breathing exercises, I realized there was a lot of overlap between common routines, in terms of how they were structured. These routines were simple—simple enough that I thought I could build a small app to explore them further. 
 
 ## Stack
 
 - SwiftUI
 - UserDefaults
 
-We use a simple stack here. Just needing to store a few pieces of information per breathing routine, we can simply store an array of routines in the UserDefaults as our model. For our views, we can allow users to *create*, *search* for and *delete* routines, as well as *play* them. For CRUD views, we use a standard list + sheet architecture. For the player view, we designed a custom view. 
+## Design
 
-## Code
+I use a simple stack here. Just needing to store a few pieces of information per breathing routine, we can simply store an array of routines in the UserDefaults as our model. For the views, we want to allow users to *create*, *search* for and *delete* routines, as well as *play* them. For CRUD views, we use a standard list + sheet architecture. For the Player view, we designed a custom view that ******guides you through a breathing routine, like Box Breathing or Pranayama, with prompts, a pulsing animation and haptic alerts.
+
+### Routes
+
+- /
+
+Displays a tab view for BoxPlayer, PranayamaPlayer, CustomRoutines and Settings.
+
+- /[...]Player
+
+Displays a custom view to conduct the breathing routine.
+
+- /customRoutines
+
+Displays a list of routines. Allows adding, reordering and deleting. 
+
+- /settings/
+
+Allows the changing of app colors.
