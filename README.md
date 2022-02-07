@@ -34,5 +34,5 @@ Displays a list of routines. Allows adding, reordering and deleting.
 Allows the changing of app colors.
 
 
-![photo of the add screen](https://github.com/jpknwls/Breathe/blob/main/include/breathe-add.PNG?raw=true)
-![photo of the player screen](https://github.com/jpknwls/Breathe/blob/main/include/breathe-player.PNG?raw=true)
+![photo of the add screen](https://github.com/jpknwls/Breathe/blob/main/include/breathe-add-small.png?raw=true)
+![photo of the player screen](https://github.com/jpknwls/Breathe/blob/main/include/breathe-player-small.png?raw=true)
