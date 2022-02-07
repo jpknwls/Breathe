@@ -1,6 +1,6 @@
 # Breathe
 
-![gif of the player screen](https://github.com/jpknwls/Lynx/blob/main/include/breathe.gif?raw=true)
+![gif of the player screen](https://github.com/jpknwls/Breathe/blob/main/include/breathe.gif?raw=true)
 
 ## Purpose
 
@@ -34,5 +34,5 @@ Displays a list of routines. Allows adding, reordering and deleting.
 Allows the changing of app colors.
 
 
-![photo of the add screen](https://github.com/jpknwls/Lynx/blob/main/include/breathe-add.png?raw=true)
-![photo of the player screen](https://github.com/jpknwls/Lynx/blob/main/include/breathe-player.png?raw=true)
+![photo of the add screen](https://github.com/jpknwls/Breathe/blob/main/include/breathe-add.png?raw=true)
+![photo of the player screen](https://github.com/jpknwls/Breathe/blob/main/include/breathe-player.png?raw=true)
