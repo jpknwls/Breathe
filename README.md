@@ -1,5 +1,7 @@
 # Breathe
 
+![gif of the player screen](https://github.com/jpknwls/Lynx/blob/main/include/breath.gif?raw=true)
+
 ## Purpose
 
 ***Breathe*** is an iOS app built with SwiftUI. The purpose behind ***Breathe*** is to provide simple access to a number of different breathing routines. While doing research on breathing exercises, I realized there was a lot of overlap between common routines, in terms of how they were structured. These routines were simple—simple enough that I thought I could build a small app to explore them further. 
@@ -30,3 +32,7 @@ Displays a list of routines. Allows adding, reordering and deleting.
 - /settings/
 
 Allows the changing of app colors.
+
+
+![photo of the add screen](https://github.com/jpknwls/Lynx/blob/main/include/breath-add.png?raw=true)
+![photo of the player screen](https://github.com/jpknwls/Lynx/blob/main/include/breath-player.png?raw=true)
